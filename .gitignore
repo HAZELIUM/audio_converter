@@ -1,0 +1,14 @@
+# PyInstaller build output
+dist/
+build_temp/
+*.spec
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Runtime folders (kept as empty directories via .gitkeep)
+input/*
+output/*
+!input/.gitkeep
+!output/.gitkeep
