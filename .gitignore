@@ -1,14 +1,14 @@
-# PyInstaller build output
-dist/
+# PyInstaller build intermediates — not needed in the repo
 build_temp/
 *.spec
 
+# Keep dist/ tracked (contains the built EXEs)
+# dist/ is intentionally NOT ignored
+
 # Python cache
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 
-# Runtime folders (kept as empty directories via .gitkeep)
-input/*
-output/*
-!input/.gitkeep
-!output/.gitkeep
+# Temporary yt-dlp operations folder
+operations/
